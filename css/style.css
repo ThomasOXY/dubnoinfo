@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  background: #222f3e;
+  padding: 0;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  -webkit-animation: gradient 60s ease infinite;
+          animation: gradient 60s ease infinite;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  text-align: center;
+}
+
+.main h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.5em;
+}
+
+.main h2 {
+  margin-top: -.8em;
+  font-family: 'Raleway', sans-serif;
+}
+
+.main button {
+  width: 10em;
+  height: 3em;
+  border-radius: 15px;
+  border: none;
+}
+
+.about {
+  width: 100%;
+  min-height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.about h2 {
+  border-bottom: 2px solid white;
+}
+
+.about p {
+  border: 2px solid black;
+  border-radius: 15px;
+  padding: 2em;
+  background: #576574;
+  width: 40%;
+  font-family: 'Raleway', sans-serif;
+}
+
+@-webkit-keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .about p {
+    width: 70%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
