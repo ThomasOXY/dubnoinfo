@@ -89,34 +89,3 @@ prvni cislo v "time": "0 (7:10 - 7:55)", je cislo hodiny
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-Pokud byly nějaké hodiny vyjmuty z rozvrhu jako školní akce, tak to ukaze pouze jednu hodinu nekdy:
-"FRI": {
-    "7": "Vyjmuto skol akce"
-},
-
-pokud tam jsou hodiny normalni a skolni akce: (skolni akce je od 0 do 5)
-"THU": {
-    "6": "MAT",
-    "7": "PPV",
-    "8": "Vyjmuto skol akce"
-},
-
-
-nejlepsi reseni, pokud se objevi "skol. akce" oznacit cely den jako skolni akci, az na vyjimky pokud nejaky jsou
-
-
-bordel v tom je
-kdyz je neco vyjmuto z rozvrhu tak se to prohodi A a B 
-
-nejde pouzit pravidlo na radky, kdyz jsou praxe/normalni tak to neni dobre
