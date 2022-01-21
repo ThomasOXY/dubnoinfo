@@ -34,7 +34,13 @@ body {
 
     }
 }
-
+select{
+    width: 10em;
+    height: 3em;
+    border-radius: 15px;
+    border: none;
+    text-align: center;
+}
 .about{
 width: 100%;
 min-height: 80vh;
